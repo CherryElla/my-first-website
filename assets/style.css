@@ -1,0 +1,54 @@
+/* Universal Seletor */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Element Selectors */
+body {
+    position: relative;
+    z-index: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    background-color: tan;
+    
+}
+
+/* Class Seletors */
+.navagation {
+    position: fixed;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: auto;
+    height: 100px;
+    background-color: tan;
+    color: black;
+}
+
+.main-box {
+    position: relative;
+    z-index: 1;
+    padding-top: 1500px;
+    padding-bottom: 10px;
+    background-color: wheat;
+
+}
+
+.welcome {
+    text-align: left;
+}
+
+/* Id selectors */
+#learn-img, #webdev-img {
+    height: 300px;
+    position: relative;
+    display: inline;
+    margin: 20px auto;
+
+}
+
+
+
+
